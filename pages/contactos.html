@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>contactos</title>
+</head>
+    <body>
+        <header>
+            <i class="fa-solid fa-bars" id="hamburger-menu"></i>
+            <img src="/img/logo3.png" id="imagen-logo">
+
+            <nav>
+             
+                <a href="../index.html">HOME</a>
+                <a href="marcas.html">MARCAS</a>
+                <a href="beneficio.html">BENEFICIO</a>
+                <a href="cosmetica.html">COSMÉTICA</a>
+                <a href="contactos.html">CONTACTO</a>
+            </nav>
+    </header>
+    
+        <main>
+
+        
+        <section>
+            <h1 id="titulo__principal">CONTACTO</h1>
+       
+        <form>
+            <label for="input-nombre">Nombre Apellido</label>
+            <input type="text" id="input-nombre" placeholder="Ingresa tu nombre..." required>
+            <br>
+            <br>
+            <label for="input-email">Email</label>
+            <input type="email" id="input-mail" placeholder="asdasdad@text.com" required>
+            <br>
+            <br>
+            <label for="input-tel">Teléfono</label>
+            <input type="tel" id="input-tel" placeholder="54 011 78654365" required>
+            <br>
+            <br>
+            <label for="select-pais">País</label>
+            <!--en el atributo id no mayuscula no espacios no acentos-->
+            <select name="" id="select-pais">
+                <option value="">Argentina</option>
+                <option value="">Brasil</option>
+                <option value="">Chile</option>
+
+            </select>
+            <br>
+            <br>
+            <!--agregar los names
+                remplazar br por div 
+
+        
+            -->
+            <label for="checkbox-newsletter">Quieres recibir un Newsletter</label>
+            <input type="checkbox" id="checkbox-newsletter">
+           <div>
+            <textarea name="" id="mensaje" cols="20" rows="10" placeholder="ingresa tu mensaje"></textarea>
+        
+           </div> 
+           <input type="submit" id="enviar">
+           <input type="reset" id="restablecer">
+
+
+        </form>
+    </section>
+        </main>
+    
+        <footer>
+            <div>
+                <nav>    
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <p>HOME</p>
+                    <p>PRODUCTS</p>
+                    <p>COMPANY</p>
+                    <p>BLOG</p>
+                </nav>
+            </div>
+        </footer>     
+    
+</body>
+</html>
