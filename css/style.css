@@ -24,7 +24,7 @@ a {
 nav a:hover,nav p:hover{
     background-color:#5dc1b9;
     font-weight:bolder;
-    transform: scale(2);
+    transform: scale(2.2);
   
 
     /* background-color: rgb(38, 38, 39); */
@@ -103,8 +103,8 @@ body{
 .tarjeta a:hover{
      background-color: beige;
     width: 75px;
-    transform: scale(2);
     background-color: #454546;
+    transform: scale(2.2);
 }
 
  nav{
