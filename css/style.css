@@ -1,6 +1,6 @@
 header{
-    background-color:#454546;
-    color: white;
+    background-color:white;
+    color: rgb(19, 19, 19);
     align-items: center;
     display:grid;
     grid-template-columns: 1fr 8fr 3fr
@@ -16,13 +16,13 @@ body{
 
 a {
     text-decoration: none;
-    color: rgb(250, 242, 242);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 5px;
 }
 
 nav a:hover,nav p:hover{
-    background-color:#020202;
+    background-color:#0a0303;
     font-weight:bolder;
     transform: scale(2.2);
   
@@ -187,11 +187,15 @@ main h1{
         display: none;
     }
 #search{
-display: none;
+display: none; 
 }
 }
-/*  */
+
 .img-card{
     width: 250px;
     height: 150px;
+}
+.conteiner-elemento{
+    background-color: #666666;
+    padding: 1%;
 }
