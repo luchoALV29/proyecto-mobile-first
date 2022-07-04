@@ -1,11 +1,11 @@
-header{
-    background-color:white;
+/* header{
+    /* background-color:white;
     color: rgb(19, 19, 19);
     align-items: center;
     display:grid;
     grid-template-columns: 1fr 8fr 3fr
-    
-}
+
+} */ */
 
 body{
     height: 100vh;
@@ -16,16 +16,16 @@ body{
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 5px;
 }
 
 nav a:hover,nav p:hover{
-    background-color:#0a0303;
+    background-color:white;
     font-weight:bolder;
-    transform: scale(2.2);
-  
+    /* transform: scale(2.2); */
+
     /* background-color: rgb(38, 38, 39); */
      width: 75px;
 }
@@ -51,7 +51,7 @@ footer li {
 }
 
 body{
-    background-color:beige
+    background-color:white
 }
 
 .contenedor-tarjetas{
@@ -65,7 +65,7 @@ body{
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: center; */
-    
+
 }
 
 .tarjeta{
@@ -73,8 +73,8 @@ body{
     border:3px solid #8c8c8c;
     margin: 10px;
     padding: 10px;
-    transition-property:transfrom;
-  
+    /* transition-property:transfrom; */
+
 
 }
 .tarjeta img{
@@ -86,24 +86,24 @@ body{
 
 .tarjeta a {
     width: 150px;
-     border:5px solid #8c8c8c; 
-     margin: 10px; 
-     padding: 10px; 
+     border:5px solid #8c8c8c;
+     margin: 10px;
+     padding: 10px;
     display: inline-block;
     text-decoration: none;
-    border: solid 3px black; 
-     padding: 3px 5px; 
+    border: solid 3px black;
+     padding: 3px 5px;
      background-color: rgb(0, 0, 0);
-    color: black;
-    font-weight: bold; 
+    color: rgb(247, 247, 247);
+    font-weight: bold;
      border-radius: 10px;
 
 }
 .tarjeta a:hover{
-     background-color: rgb(0, 0, 0);
+     background-color: rgb(175, 175, 175);
     width: 75px;
     background-color: #454546;
-    transform: scale(2.2);
+    /* transform: scale(2.2); */
 }
 
  nav{
@@ -124,7 +124,7 @@ i:hover{
     margin:0px;
     padding:0px;
     background-color:#5dc1b9;
-   transform: scale(2);
+   /* transform: scale(2); */
 }
 /* marcas  */
 .img-marca{
@@ -187,7 +187,7 @@ main h1{
         display: none;
     }
 #search{
-display: none; 
+display: none;
 }
 }
 
@@ -196,6 +196,6 @@ display: none;
     height: 150px;
 }
 .conteiner-elemento{
-    background-color: #666666;
+    background-color:white;
     padding: 1%;
 }
