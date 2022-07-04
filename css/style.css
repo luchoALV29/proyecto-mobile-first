@@ -22,8 +22,8 @@ a {
 .link-custom:hover{
     background-color:white;
     font-weight:bolder;
-    /* transform: scale(2.2); */
-    /* background-color: rgb(38, 38, 39); */
+     transform: scale(2.2); 
+     /* background-color: rgb(38, 38, 39);  */
      width: 75px;
 }
 
@@ -169,4 +169,8 @@ display: none;
 .conteiner-elemento{
     background-color:white;
     padding: 1%;
+}
+.h1{
+    position: relative;
+  
 }
