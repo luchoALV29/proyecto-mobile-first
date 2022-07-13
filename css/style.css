@@ -30,17 +30,6 @@ footer {
   text-align: center;
 }
 
-#titulo__principal {
-  background-color: #666666;
-  color: white;
-  margin: 0px;
-  padding: 10px;
-}
-
-#imagen__principal {
-  width: 100%;
-}
-
 #imagen__principal {
   width: 100%;
 }
@@ -51,7 +40,8 @@ footer {
   margin: 0px;
   padding: 10px;
 }
-#titulo__principal nav {
+
+nav {
   padding: 0px;
   display: flex;
   flex-direction: row;
@@ -74,17 +64,6 @@ i:hover {
 .img-card {
   width: 250px;
   height: 150px;
-}
-
-@media (max-width: 1119px) {
-  header {
-    grid-template-columns: 1fr 8fr;
-  }
-}
-@media (max-width: 1119px) {
-  header {
-    grid-template-columns: 1fr 8fr;
-  }
 }
 
 .tarjeta {
