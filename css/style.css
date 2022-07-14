@@ -66,13 +66,17 @@ i:hover {
   height: 150px;
 }
 
-.tarjeta {
+.tarjeta-marcas {
+  background-color: white;
+}
+
+.tarjeta, .tarjeta-marcas {
   width: 180px;
   border: 3px solid #8c8c8c;
   margin: 10px;
   padding: 10px;
 }
-.tarjeta a {
+.tarjeta a, .tarjeta-marcas a {
   width: 150px;
   border: 5px solid #8c8c8c;
   margin: 10px;
@@ -86,12 +90,12 @@ i:hover {
   font-weight: bold;
   border-radius: 10px;
 }
-.tarjeta a:hover {
+.tarjeta a:hover, .tarjeta-marcas a:hover {
   background-color: rgb(175, 175, 175);
   width: 75px;
   background-color: #454546;
 }
-.tarjeta img {
+.tarjeta img, .tarjeta-marcas img {
   width: 100%;
   height: 250px;
 }

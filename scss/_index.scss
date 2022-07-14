@@ -75,3 +75,21 @@ i{
     height: 150px;
 }
 
+
+
+
+.tarjeta-marcas{
+    @extend.tarjeta;
+
+    background-color:white
+
+}
+
+@mixin d-flex($justify,$align){
+    display:flex;
+
+    justify-content: $justify;
+    align-items: $align;
+
+}
+
