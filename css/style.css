@@ -19,8 +19,6 @@ a {
 .link-custom:hover {
   background-color: white;
   font-weight: bolder;
-  transform: scale(2.2);
-  width: 75px;
 }
 
 footer {
@@ -35,7 +33,6 @@ footer {
 }
 
 #titulo__principal {
-  background-color: #666666;
   color: white;
   margin: 0px;
   padding: 10px;
@@ -51,7 +48,7 @@ nav {
 }
 
 footer li {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 i:hover {
@@ -68,6 +65,26 @@ i:hover {
 
 .tarjeta-marcas {
   background-color: white;
+}
+
+.img-carrusel {
+  width: 100%;
+  height: 40vh;
+}
+@media (min-width: 576px) {
+  .img-carrusel {
+    height: 50vh;
+  }
+}
+@media (min-width: 992px) {
+  .img-carrusel {
+    height: 60vh;
+  }
+}
+@media (min-width: 1200px) {
+  .img-carrusel {
+    height: 80vh;
+  }
 }
 
 .tarjeta, .tarjeta-marcas {
